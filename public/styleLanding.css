@@ -1,0 +1,81 @@
+
+body{
+    background-image: url(images/BACKGROUND-LANDING-PAGE-TUGAS-APSI.jpg);
+    background-size: cover;
+  }
+  
+/* NAVBAR */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.navbar-brand {
+    margin-top: -125px;
+}
+
+.navbar-nav {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.navbar-brand, .nav-link {
+    color: white; 
+}
+
+.nav-link {
+    font-family: 'Altone Trial';
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 0;
+}
+
+.nav-link:hover::after {
+    font-style: aliceblue;
+      content: '';
+      display: block;
+      border-bottom: 3px solid blue;
+      width: 50%;
+      margin: auto;
+      padding-bottom: 5px;
+      margin-bottom: -8px;
+}
+
+/* AKHIR NAVBAR */
+
+.halo{
+    font-family: 'Altone Trial';
+    margin-top: -80px;
+    text-align: center;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Altone Trial';
+    src: url(fonts/Altone-Trial-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Altone Trial Bold' ;
+    src: url(fonts/Altone-Trial-Bold.ttf) format(truetype);
+}
+
+.judul {
+    font-family: 'Altone Trial Bold';
+    font-size: 35pt;
+    color: white;
+    margin-top: 50px;
+}
+.paragraf {
+    font-family: 'Altone Trial';
+    font-size: 16pt;
+    color: white;
+    margin-top: -95px;
+}
+
+.judul, .paragraf {
+    margin-left: 25px;
+}

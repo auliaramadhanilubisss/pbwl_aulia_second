@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Altone Trial';
+    src: url(fonts/Altone-Trial-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Altone Trial Bold' ;
+    src: url(fonts/Altone-Trial-Bold.ttf) format(truetype);
+}
+
+body {
+    padding: 20px 40px 30px 40px;
+    font-family: 'Altone Trial Bold';
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.sidebar-header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 250px;
+}
+
+.sidebar-nav {
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #282828;
+}
+
+.sidebar-nav h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.sidebar-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar-nav ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar-nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-nav ul li a img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 250px;
+    margin-top: -400px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header input[type="text"] {
+    background-color: #282828;
+    width: 400px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 20px;
+}
+
+.top-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.top-nav .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.song-info {
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lyrics {
+    align-items: center;
+    display: flex;
+}
+
+.lyrics img {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.lyrics p {
+    margin-left: 40px;
+}
+
+footer {
+    background-color: #282828;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.player {
+    margin-left: -300px;
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.player-info {
+    margin-right: 20px;
+}
+
+.controls button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    margin: 0 10px;
+}
+
+.volume input[type="range"] {
+    margin-left: 20px;
+}
+
+.fas {
+    font-size: 24px;
+    background-color: white;
+    color: black;
+}

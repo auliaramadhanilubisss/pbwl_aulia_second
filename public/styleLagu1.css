@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'Altone Trial';
+    src: url(fonts/Altone-Trial-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Altone Trial Bold' ;
+    src: url(fonts/Altone-Trial-Bold.ttf) format(truetype);
+}
+
+body{
+    margin: 40px;
+    background-color: rgb(7, 6, 6);
+    display: flex;
+    height: 100vh;
+}
+/* .sidebar .content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+
+/* SIDEBAR */
+.sidebar{
+    width: 300px;
+    height: 100vh;
+    flex-direction: column;
+    padding: 0 30px 0 0;
+    margin-left: 20px;
+    background-color: rgb(7, 6, 6);
+
+}
+
+.sidebar-nav{
+    height: 93vh;
+    background-color: rgba(54, 52, 52, 0.555);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.sidebar-nav h1{
+    font-family: 'Altone Trial Bold';
+    color: white;
+}
+
+.sidebar-nav ul{
+    margin-left: -28px;
+    list-style-type: none;
+}
+
+.sidebar-nav a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar-nav p{
+    margin-top: -5px;
+    margin-left: 30px;
+    font-size: 12px;
+    font-family: 'Altone Trial';
+}
+
+.nav-link{
+    font-family: 'Altone Trial Bold';
+    font-size: 20px;
+}
+.account{
+    font-family: 'Altone Trial Bold';
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap: 2rem;
+    font-size: 20px;
+}
+/* SIDEBAR */
+.content {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+/* NAVBAR */
+.nav-head{
+    width: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-head a {
+    font-family: 'Altone Trial Bold';
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+.nav-head img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+
+}
+.box{
+    margin-left: 20px;
+    background-color: white;
+    width: 300px;
+    padding: 6px;
+    border-radius: 20px ;
+}
+.box i{
+    color: gray;
+    font-size: 16px;
+}
+.nav-head input[type="text"] {
+    width: 250px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.fa-solid{
+    line-height: 2;
+    color: white;
+    font-size: 24px;
+}
+
+.nav-set{
+    font-family: 'Altone Trial Bold';
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 10px;
+    margin-right: 0;
+    justify-content: space-between;
+}
+.nav-set i{
+    color: white;
+}
+
+/* MAIN */
+.lagu {
+    color: white;
+    height: 90vh;
+    width: 850px;
+    background-color: rgba(54, 52, 52, 0.555);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.lyrics {
+    align-items: center;
+    display: flex;
+}
+
+.lyrics img {
+    width: 200px;
+    margin: 20px 0;
+}
+
+.lyrics p {
+    margin-left: 40px;
+}

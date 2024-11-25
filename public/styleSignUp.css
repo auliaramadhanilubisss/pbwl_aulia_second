@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Altone Trial';
+    src: url(fonts/Altone-Trial-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Altone Trial Bold' ;
+    src: url(fonts/Altone-Trial-Bold.ttf) format(truetype);
+}
+
+body,html{
+    font-family: 'Altone Trial Bold';
+    font-size: 18px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login {
+    margin-top: 150px;
+}
+
+.judul{
+    color: white;
+}
+
+.tulis {
+    font-size: 14px;
+}
+
+input[type="text"], input[type="email"], input[type="password"],input[type="simpan"] {
+    align-items: center;
+    width: 400px;
+    padding: 15px;
+    margin:  0;
+    border: none;
+    border-radius: 15px;
+}
+
+.center-text{
+    text-align: center;
+    color: white;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    position: left;
+}
+
+.btn{
+    font-family: 'Altone Trial Bold' ;
+    background: linear-gradient(to right, #2320d1de, #4387ec); /* Warna gradasi dari oranye ke peach */
+    padding: 13px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 50%;
+}
+.logo-container{
+    position: fixed;
+    top: -90px;
+    left: 0%;
+    margin: 0%;
+}
+.logo{
+    width: 300px;
+    display: block;
+}
+
+.akun {
+    font-family: 'Altone Trial';
+    font-size: 12px;
+}
